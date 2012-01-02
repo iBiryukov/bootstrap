@@ -318,6 +318,13 @@ textarea[readonly] {
   font-size: @basefont;
   line-height: @baseline;
   color: @grayLight;
+  a:link {
+  	color: lighten(@linkColor, 25%);
+  }
+  
+  a:hover {
+  	color:@linkColorHover;
+  }
 }
 .help-inline {
   padding-left: 5px;
